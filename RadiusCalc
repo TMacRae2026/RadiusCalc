@@ -66,7 +66,7 @@ public class RadiusCalc {
         
         System.out.println("enter the radius of your cone, then height of your cone");
         int r = getUserInInt(s);
-        int h = getUserInInt(s);
+        double h = getUserInInt(s);
         double result = Math.PI * Math.pow(r, 2) * h/3;
         System.out.println(result);
     }
